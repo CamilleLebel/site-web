@@ -1,0 +1,128 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: #d9bc2e;
+}
+
+h1 {
+    font-family: Calibri, serif;
+    font-size: 45px;
+    color: #444;
+}
+
+h2 {
+    font-family: Calibri, serif;
+    font-size: 30px;
+    color: #444;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.bold-yellow-font {
+    color: #d9bc2e;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 120px;
+    min-width: 960px;
+    background-color: #494949;
+}
+header h1 {
+    float: left;
+    color: white;
+    margin-top: 32px;
+}
+header nav {
+    float: right;
+    margin-top: 60px;
+}
+header nav ul li {
+    float: left;
+}
+
+header nav ul li {
+    height: 100px;
+}
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+header nav ul li a:hover {
+    color: #d9bc2e;
+    padding-bottom: 20px;
+    border-bottom: 5px ridge #d9bc2e;
+}
+
+/* HOME */
+
+#home {
+}
+
+.background-white {
+    float: left;
+    height: 180px;
+    width: 100%;
+    /* margin-top: 32px; */
+    background-color: white;
+    border-radius: 15px;
+}
+
+#home .background-white h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #494949;
+    padding: 10px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#home .background-white p {
+    /* margin: 8px 8px 0 8px; */
+    margin: auto;
+    padding: 15px;
+
+    font-family: 'Oxygen', 'PT Sans', serif;
+    color: #444;
+    text-align: center;
+}
